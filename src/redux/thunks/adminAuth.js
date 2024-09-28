@@ -1,8 +1,6 @@
 
 import { createAsyncThunk } from '@reduxjs/toolkit'
 import axios from 'axios'
-// import { server } from '../../constants/Config'
-import { validate } from '../../../../server/lib/validators';
 
 
 const adminLogin = createAsyncThunk(
